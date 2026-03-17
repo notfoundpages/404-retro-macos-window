@@ -7,3 +7,32 @@ Live Preview → https://notfoundpages.github.io/404-retro-macos-window
 
 Discover the full collection → https://notfoundpages.github.io
 */
+
+:root {
+  --bg-color: #2b7fff;
+  --window-bg: #f9f9f9;
+  --border-color: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: var(--bg-color);
+
+  /* Parent Background Lines */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center;
+  background-attachment: fixed;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Mono', monospace;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  box-sizing: border-box;
+}
