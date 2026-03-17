@@ -7,3 +7,8 @@ Live Preview → https://notfoundpages.github.io/404-retro-macos-window
 
 Discover the full collection → https://notfoundpages.github.io
 */
+
+function changeColor(color) {
+  document.body.style.backgroundColor = color;
+  document.documentElement.style.setProperty('--bg-color', color);
+}
