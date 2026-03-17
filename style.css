@@ -158,3 +158,20 @@ h1 {
   background-color: var(--border-color);
   color: white;
 }
+
+@media (max-width: 768px) {
+  .content {
+    padding: 60px 20px;
+  }
+
+  .home-btn {
+    position: static;
+    display: block;
+    margin: 40px auto 0;
+    width: fit-content;
+  }
+
+  .window-wrapper {
+    box-shadow: none;
+  }
+}
