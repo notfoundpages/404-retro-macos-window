@@ -36,3 +36,76 @@ body {
   overflow: hidden;
   box-sizing: border-box;
 }
+
+.window-wrapper {
+  position: relative;
+  background-color: var(--window-bg);
+
+  /* Inherited Background Lines Effect */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center;
+  background-attachment: fixed;
+  /* Keeps the grid perfectly aligned with the parent */
+
+  border: 3px solid var(--border-color);
+  border-radius: 24px;
+  /* Added border radius to top AND bottom */
+  width: 100%;
+  max-width: 620px;
+  box-shadow:
+    12px 12px 0px -3px var(--bg-color),
+    12px 12px 0px 0px var(--border-color),
+    24px 24px 0px -3px var(--bg-color),
+    24px 24px 0px 0px var(--border-color);
+  transition: box-shadow 0.3s ease;
+}
+
+.title-bar {
+  background: var(--border-color);
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* Inner top radius calculated to fit perfectly inside the 3px border (24px - 3px = 21px) */
+  border-radius: 21px 21px 0 0;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.color-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s;
+}
+
+.color-dot:hover {
+  transform: scale(1.2);
+}
+
+.red {
+  background-color: #ff5f56;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #27c93f;
+}
+
+.error-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
