@@ -1,6 +1,6 @@
 /*
 © 2026 Not Found Pages · 404-retro-macos-window
-Released under the Apache-2.0 License
+Released under the MIT License
 
 Repository → https://github.com/notfoundpages/404-retro-macos-window
 Live Preview → https://notfoundpages.github.io/404-retro-macos-window
