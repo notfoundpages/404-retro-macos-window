@@ -1,0 +1,293 @@
+<!-- 
+© 2026 Not Found Pages · 404-retro-macos-window
+Released under the MIT License
+
+Repository → https://github.com/notfoundpages/404-retro-macos-window
+Live Preview → https://notfoundpages.github.io/404-retro-macos-window
+
+Discover the full collection → https://notfoundpages.github.io
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Character Encoding & Viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>404-retro-macos-window ~ notfoundpages</title>
+  <meta name="title" content="404-retro-macos-window ~ notfoundpages">
+  <meta name="description"
+    content="A sleek retro 404 page inspired by classic macOS desktops. Features a minimal monospace design, macOS-style title bar controls, interactive color switching, and a clean UI. Built with pure HTML, CSS & JS, it's lightweight, responsive, and perfect for modern websites seeking a polished retro touch.">
+  <meta name="keywords"
+    content="404 page, retro design, macOS, error page, web design, HTML, CSS, JavaScript, responsive web design, notfoundpages, Not Found Pages, NOT FOUND PAGES, NotFoundPages, creative 404 pages, interactive error page, minimal design, monospace font, title bar controls, color switching">
+  <meta name="author" content="Not Found Pages">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+
+  <!-- Open Graph / Facebook Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://notfoundpages.github.io/404-retro-macos-window/">
+  <meta property="og:title" content="404-retro-macos-window ~ notfoundpages">
+  <meta property="og:description"
+    content="A sleek retro 404 page inspired by classic macOS desktops. Features a minimal monospace design, macOS-style title bar controls, interactive color switching, and a clean UI. Built with pure HTML, CSS & JS, it's lightweight, responsive, and perfect for modern websites seeking a polished retro touch.">
+  <meta property="og:image"
+    content="https://notfoundpages.github.io/404-retro-macos-window/assets/previews/open-graph.png">
+  <meta property="og:site_name" content="Not Found Pages">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://notfoundpages.github.io/404-retro-macos-window/">
+  <meta name="twitter:title" content="404-retro-macos-window ~ notfoundpages">
+  <meta name="twitter:description"
+    content="A sleek retro 404 page inspired by classic macOS desktops. Features a minimal monospace design, macOS-style title bar controls, interactive color switching, and a clean UI. Built with pure HTML, CSS & JS, it's lightweight, responsive, and perfect for modern websites seeking a polished retro touch.">
+  <meta name="twitter:image"
+    content="https://notfoundpages.github.io/404-retro-macos-window/assets/previews/open-graph.png">
+
+  <!-- Canonical URL -->
+  <meta name="canonical" href="https://notfoundpages.github.io/404-retro-macos-window/">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "404-retro-macos-window",
+    "description": "A sleek retro 404 page inspired by classic macOS desktops. Features a minimal monospace design, macOS-style title bar controls, interactive color switching, and a clean UI. Built with pure HTML, CSS & JS, it's lightweight, responsive, and perfect for modern websites seeking a polished retro touch.",
+    "url": "https://notfoundpages.github.io/404-retro-macos-window/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Not Found Pages",
+      "url": "https://github.com/notfoundpages"
+    },
+    "isPartOf": {
+      "@type": "404 Pages",
+      "name": "404-retro-macos-window",
+      "url": "https://notfoundpages.github.io/404-retro-macos-window/"
+    }
+  }
+  </script>
+
+  <!-- Additional Meta Tags -->
+  <meta name="theme-color" content="#2b7fff">
+  <link rel="canonical" href="https://notfoundpages.github.io/404-retro-macos-window/">
+
+  <!-- Stylesheet -->
+  <style>
+    :root {
+      --bg-color: #2b7fff;
+      --window-bg: #f9f9f9;
+      --border-color: #000000;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: var(--bg-color);
+
+      /* Parent Background Lines */
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+      background-size: 40px 40px;
+      background-position: center;
+      background-attachment: fixed;
+
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Space Mono', monospace;
+      transition: background-color 0.3s ease;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+
+    .window-wrapper {
+      position: relative;
+      background-color: var(--window-bg);
+
+      /* Inherited Background Lines Effect */
+      background-image:
+        linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+      background-size: 40px 40px;
+      background-position: center;
+      background-attachment: fixed;
+      /* Keeps the grid perfectly aligned with the parent */
+
+      border: 3px solid var(--border-color);
+      border-radius: 24px;
+      /* Added border radius to top AND bottom */
+      width: 100%;
+      max-width: 620px;
+      box-shadow:
+        12px 12px 0px -3px var(--bg-color),
+        12px 12px 0px 0px var(--border-color),
+        24px 24px 0px -3px var(--bg-color),
+        24px 24px 0px 0px var(--border-color);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .title-bar {
+      background: var(--border-color);
+      color: white;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      /* Inner top radius calculated to fit perfectly inside the 3px border (24px - 3px = 21px) */
+      border-radius: 21px 21px 0 0;
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+    }
+
+    .color-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      transition: transform 0.15s;
+    }
+
+    .color-dot:hover {
+      transform: scale(1.2);
+    }
+
+    .red {
+      background-color: #ff5f56;
+    }
+
+    .yellow {
+      background-color: #ffbd2e;
+    }
+
+    .green {
+      background-color: #27c93f;
+    }
+
+    .error-label {
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-weight: 400;
+    }
+
+    .content {
+      padding: 80px 40px;
+      text-align: center;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sad-face {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 8vw, 5rem);
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: -2px;
+    }
+
+    .sub-text {
+      font-size: 12px;
+      margin-top: 15px;
+      letter-spacing: 1px;
+      opacity: 0.8;
+      text-transform: uppercase;
+    }
+
+    .home-btn {
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+      border: 1.5px solid var(--border-color);
+      padding: 6px 16px;
+      font-size: 12px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: var(--window-bg);
+      transition: all 0.2s ease;
+    }
+
+    .home-btn:hover {
+      background-color: var(--border-color);
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        padding: 60px 20px;
+      }
+
+      .home-btn {
+        position: static;
+        display: block;
+        margin: 40px auto 0;
+        width: fit-content;
+      }
+
+      .window-wrapper {
+        box-shadow: none;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="window-wrapper">
+
+    <div class="title-bar">
+      <div class="controls">
+        <button class="color-dot red" title="Red" onclick="changeColor('#ff5f56')"></button>
+        <button class="color-dot yellow" title="Yellow" onclick="changeColor('#ffbd2e')"></button>
+        <button class="color-dot green" title="Green" onclick="changeColor('#27c93f')"></button>
+      </div>
+      <span class="error-label">SYSTEM ERROR</span>
+    </div>
+
+    <div class="content">
+      <svg class="sad-face" width="75" height="75" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="8" y1="9" x2="8.01" y2="9"></line>
+        <line x1="16" y1="9" x2="16.01" y2="9"></line>
+        <path d="M16 16s-1.5-2-4-2-4 2-4 2"></path>
+      </svg>
+      <h1>404</h1>
+      <div class="sub-text">The page you are looking for has vanished.</div>
+
+      <a href="/" class="home-btn">GO HOME</a>
+    </div>
+
+  </div>
+
+  <script>
+    function changeColor(color) {
+      // Update the body element's background color
+      document.body.style.backgroundColor = color;
+
+      // Update the CSS custom property (--bg-color) to maintain consistency
+      // This ensures the drop shadow color and other dependent styles update
+      document.documentElement.style.setProperty('--bg-color', color);
+    }
+  </script>
+
+</body>
+
+</html>
