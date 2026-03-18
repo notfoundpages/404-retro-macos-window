@@ -1,4 +1,4 @@
-# Not Found Pages Code of Conduct
+## Code of Conduct
 
 This project has adopted the [Not Found Pages Code of Conduct](https://notfoundpages.github.io/community/conduct/).
 
