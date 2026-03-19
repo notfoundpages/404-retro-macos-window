@@ -27,7 +27,6 @@ By participating in this project, you agree to be respectful and constructive. W
 ### Prerequisites
 - Git knowledge (basic commands)
 - A code editor (VS Code, Sublime Text, etc.)
-- Node.js (optional, for running tasks if added in future)
 
 ### Fork & Clone
 1. Fork the repository on GitHub
@@ -98,12 +97,11 @@ Small fixes and improvements that maintain the project's minimalist philosophy:
 ### No Build Process
 This project intentionally avoids build tools to keep it lightweight and dependency-free. You can test changes by:
 1. Opening `index.html` directly in your browser
-2. Using a simple HTTP server (optional):
+2. Using a local HTTP server (optional) to test locally:
    ```bash
    python -m http.server 8000
-   # or with Node.js
-   npx http-server
    ```
+   Then visit `http://localhost:8000` in your browser
 
 ## ✏️ Making Changes
 
