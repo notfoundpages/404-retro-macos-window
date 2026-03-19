@@ -1,0 +1,9 @@
+name: Choose an Issue Type
+description: Select the type of issue you'd like to report
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to help improve 404-retro-macos-window! 
+
+        Please select the most appropriate issue type from the options below.
