@@ -16,10 +16,13 @@ Built with pure **HTML, CSS & JavaScript** — lightweight, no dependencies, and
 
 ## 🎨 Preview
 
-| View | Preview | Video |
-|------|---------|-------|
-| **Desktop** | ![Desktop Preview](assets/previews/desktop.png) | [Color Controls Demo](assets/previews/color-controls.mp4) |
-| **Mobile** | ![Mobile Preview](assets/previews/mobile.png) | [Instagram/YouTube Demo](assets/previews/social-media/youtube-short-and-instagram-reel.mp4) |
+| Desktop | Mobile |
+|------|---------|
+| ![Desktop Preview](assets/previews/desktop.png) |![Mobile Preview](assets/previews/mobile.png) |
+
+## Color Controls 
+
+https://github.com/user-attachments/assets/021f16c6-458b-4bbd-906a-994a75f00cef
 
 ## 🚀 Quick Start
 
