@@ -7,12 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned
-
-- Dark mode toggle
-- Additional color themes
-- Keyboard navigation improvements
-
 ## [1.0.0] - 2026-03-19
 
 ### Added
@@ -28,12 +22,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Keyboard-accessible interactive controls
 - Project documentation including README, contribution guide, and code of conduct
 - MIT license
-
-### Changed
-
-- Initial public release prepared for production usage
-
-### Notes
-
-- Built using pure HTML, CSS, and JavaScript without external dependencies
-- First stable release
