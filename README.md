@@ -32,12 +32,12 @@ Just copy it into your project, customize it, and make your 404 page feel like p
 
 | Desktop | Mobile |
 |------|---------|
-| <img src="assets/previews/desktop.png" alt="Desktop Preview" height="435"> | <img src="assets/previews/mobile.png" alt="Mobile Preview" width="200"> |
+| <img src="assets/previews/desktop.png" alt="Desktop Preview" height="435"> | <img src="assets/previews/mobile.png" alt="Mobile Preview" width="191"> |
 
 <table width="100%">
   <tr>
     <td width="50%" align="left" valign="middle">
-      <img src="assets/previews/desktop.png" alt="Desktop Preview" width="100%">
+      <img src="assets/previews/color-controls.gif" alt="color controls preview" width="100%">
     </td>
     <td width="50%" align="left" valign="middle">
       The classic macOS-style window controls aren't just decorative - they're fully interactive.
