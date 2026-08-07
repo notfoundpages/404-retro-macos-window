@@ -1,116 +1,87 @@
-# 404-retro-macos-window
+<p align="center">
+  <img src="assets/previews/desktop.png" alt="404 Retro macOS Window" width="100%">
+</p>
 
-A sleek **retro 404 error page** inspired by classic macOS desktops. This project features a minimal monospace design with macOS-style title bar controls, interactive color switching, and a clean, responsive UI.
+<h1 align="center"><a href="https://notfoundpages.github.io/404-retro-macos-window">404-retro-macos-window</a></h1>
 
-Built with pure **HTML, CSS & JavaScript** — lightweight, no dependencies, and perfect for modern websites seeking a polished retro touch.
+<p align="center">
+  A sleek, macOS-inspired 404 error page with a nostalgic retro interface, interactive color controls, and a clean monospace aesthetic.
+</p>
 
-## ✨ Features
 
-- **Retro macOS Design** — Authentic title bar with colored control buttons
-- **Interactive Color Switching** — Click the window controls to change background colors dynamically
-- **Minimal & Clean** — Pure monospace typography with grid background pattern
-- **Fully Responsive** — Works seamlessly on desktop, tablet, and mobile devices
-- **Lightweight** — Zero dependencies, ~30KB total size
-- **Accessibility-Focused** — Semantic HTML and keyboard-friendly controls
-- **Open Source** — MIT License
+<h3 align="center">
+  <a href="https://notfoundpages.github.io/404-retro-macos-window">Live Demo</a>
+  ·
+  <a href="https://github.com/notfoundpages/404-retro-macos-window">Source Code</a>
+  ·
+  <a href="https://github.com/notfoundpages/404-retro-macos-window/issues">Issues</a>
+</h3>
 
-## 🎨 Preview
+
+## Overview
+
+A 404 page doesn't have to feel like an error.
+
+**404 Retro macOS Window** transforms the familiar "page not found" experience into a small, interactive desktop-inspired interface. It combines classic macOS-style window controls with a minimalist retro design, subtle grid background, and dynamic color switching.
+
+Built entirely with **HTML, CSS, and vanilla JavaScript**, the page has no frameworks, no dependencies, and no build step.
+
+Just copy it into your project, customize it, and make your 404 page feel like part of your website.
+
+## Preview
 
 | Desktop | Mobile |
 |------|---------|
-| ![Desktop Preview](assets/previews/desktop.png) |![Mobile Preview](assets/previews/mobile.png) |
+| <img src="assets/previews/desktop.png" alt="Desktop Preview" height="435"> | <img src="assets/previews/mobile.png" alt="Mobile Preview" width="200"> |
 
-## Color Controls 
+<table width="100%">
+  <tr>
+    <td width="50%" align="left" valign="middle">
+      <img src="assets/previews/desktop.png" alt="Desktop Preview" width="100%">
+    </td>
+    <td width="50%" align="left" valign="middle">
+      The classic macOS-style window controls aren't just decorative - they're fully interactive.
+      Click the <b>red</b>, <b>yellow</b>, or <b>green</b> control to instantly switch
+      the page's background color, adding a subtle touch of personality while preserving
+      the clean, retro desktop aesthetic.
+    </td>
+  </tr>
+</table>
 
-https://github.com/user-attachments/assets/021f16c6-458b-4bbd-906a-994a75f00cef
 
-## 🚀 Quick Start
+## Quick Start
 
-### Direct Integration (As 404 Error Page)
-1. Copy `index.html`, `script.js`, and `style.css` from this repository  
-2. **Rename** `index.html` to **`404.html`**
-3. Place 404.html in your **web root directory** (usually `/public`, `/www`, or `/`)
-4. Your web server will automatically serve `404.html` when a page is not found
-5. Customize the content as needed
+### GitHub Pages
 
-**Note:** The server must be configured to serve `404.html` on 404 errors. Most hosting platforms handle this automatically.
+Using it with **GitHub Pages** is simple:
 
-## 📂 File Structure
+1. Rename `index.html` to `404.html`.
+2. Keep `404.html` in the **root** of your repository.
+3. If using the external version, keep `style.css` and `script.js` alongside it.
+4. Commit and push your changes.
 
-```
-.
-├── index.html           # Main page structure
-├── style.css            # Retro macOS-inspired styling
-├── script.js            # Interactive color switching
-├── LICENSE              # MIT License
-├── README.md            # This file
-├── CONTRIBUTING.md      # Contribution guidelines
-└── assets/
-    └── previews/        # Preview images and videos
-        ├── desktop.png
-        ├── mobile.png
-        ├── featured-and-gallery.png
-        └── social-media/
-```
+GitHub Pages automatically serves a root-level `404.html` when a visitor reaches a page that doesn't exist.
 
-## 💻 Technical Details
+### Other Hosting
 
-### Browser Support
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-- Mobile browsers (iOS Safari, Chrome Mobile)
+For other hosting platforms, rename `index.html` to `404.html` and upload it to your website's public or root directory.
 
-### Performance
-- First Contentful Paint: < 100ms
-- Fully Interactive: < 500ms
-- CSS Grid Background: Hardware-accelerated
+If you're using the external version, upload `style.css` and `script.js` alongside it.
 
-## 🎯 How It Works
+Most hosting platforms automatically serve `404.html` for missing pages. If yours requires additional configuration, check your hosting provider's documentation for setting a custom 404 page.
 
-The 404 page uses:
-- **macOS-style controls** — Red, Yellow, Green color dots as window controls
-- **Dynamic color switching** — CSS custom properties and JavaScript event listeners
-- **Grid background** — CSS linear gradients for the retro grid pattern
-- **Responsive layout** — Flexbox and relative units for all screen sizes
+### Inline Version
 
-## 🛠️ Customization
+Prefer a single file? Use either `inline/index.html` or the minified `inline/index.min.html`.
 
-### Change the Default Color
-Edit the `--bg-color` CSS variable in `style.js`:
-```javascript
-changeColor('#2b7fff'); // Default blue
-```
+Simply copy the contents into a new `404.html` in your repository or hosting root and you're ready to go – no external CSS, JavaScript, or assets required.
 
-### Modify Window Size
-Adjust the `.window-wrapper` max-width in `style.css`:
-```css
-max-width: 620px; /* Change this value */
-```
 
-### Update Text Content
-Edit the `404` message and description in `index.html`:
-```html
-<h1>404</h1>
-<p>Page not found</p>
-```
+<p align="center">
+  <strong>Made with ❤️ by <a href="https://notfoundpages.github.io">Not Found Pages</a></strong>
+</p>
 
-## 📄 License
+<p align="center">
+  <sub>Give your visitors something better than a dead end.</sub>
+</p>
 
-MIT License © 2026 [Not Found Pages](https://notfoundpages.github.io)
-
-See [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to help.
-
-## 📞 Support
-
-- **Issues** — [GitHub Issues](https://github.com/notfoundpages/404-retro-macos-window/issues)
-- **Website** — [notfoundpages.github.io](https://notfoundpages.github.io)
-- **Social Media** — [@notfoundpages](https://twitter.com/notfoundpages)
-
----
-
-**Made with ❤️ by [Not Found Pages](https://notfoundpages.github.io)**
